@@ -1,0 +1,20 @@
+% Settings for the markers
+\pgfmathsetmacro{\fieldsize}{1.5}
+
+\def\shapeField{(0,0) rectangle (\fieldsize,\fieldsize)}
+
+\newcommand{\field}[1]{
+    %   First we fill the intersecting area
+    %   The \clip command does not allow options, therefore
+    %   we have to use a scope to set the even odd rule.t
+    \begin{scope}[even odd rule]
+        %   Define a clipping path. All paths outside shapeCard will
+        %   be cut because the even odd rule is set.
+        \clip[cardcorners] \shapeField;
+    \end{scope}
+    \node at (0.5*\fieldsize,0.5*\fieldsize) {\Large{#1}};
+}
+
+\newcommand{\fieldborder}{
+    \draw[lightgray,cardcorners] \shapeField;
+}

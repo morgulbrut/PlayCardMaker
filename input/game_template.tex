@@ -1,0 +1,54 @@
+\documentclass[a4paper]{article}
+
+\input{include/libs.tex}
+%   Farbdefinitionen laden
+\input{include/colors.tex}
+%   \card-Commands laden
+\input{include/tikzcards.tex}
+\input{include/tikzmarkers.tex}
+\input{include/tikzfield.tex}
+
+\input{include/title.tex}
+
+%   Dummy-Contents
+\begin{document}
+%\begin{center}
+    \pagestyle{empty}
+
+%   V-Space-Korrektur bei langen Titeln
+%   \cardtitle{\\vspace{-5mm}SEHR LANGER TITEL}
+
+
+\maketitle
+
+\input{include/rules.tex}
+
+
+\pagebreak
+
+$cards
+
+\pagebreak
+
+$markers
+
+\pagebreak
+
+$field
+
+\section*{Round}
+\begin{enumerate}
+\item Remove startups (if more than 3)
+\item Get points (investors / players)
+\item Players turns
+\item Invest
+\item Put markers on the startups
+\end{enumerate}
+
+\section*{Players Turn}
+\begin{enumerate}
+\item Draw a card from each stack, if its an action card play it and draw another card
+\item Pitch
+\end{enumerate}
+
+\end{document}
