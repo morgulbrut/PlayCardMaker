@@ -66,4 +66,11 @@ target/
 *.aux
 *.pdf
 
+game_template.tex
+
+game.tex
+
+.idea
+
+
 *.csv
