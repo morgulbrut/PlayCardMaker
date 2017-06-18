@@ -90,7 +90,6 @@ def generate_field():
     return ret
 
 
-
 def num(s):
     try:
         return int(s)
@@ -126,4 +125,4 @@ template = Template(template_file.read())
 with open('game.tex','w') as outfile:
     outfile.write(template.substitute(d))
 
-subprocess.run(["xelatex", "-interaction=nonstopmode", "game.tex"])
+subprocess.call(["xelatex", "-interaction=nonstopmode", "game.tex"])
