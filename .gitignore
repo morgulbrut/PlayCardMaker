@@ -64,13 +64,8 @@ target/
 
 # LaTeX Stuff
 *.aux
-*.pdf
 
-game_template.tex
-
-game.tex
 
 .idea
 
 
-*.csv
