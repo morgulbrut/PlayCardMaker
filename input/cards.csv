@@ -1,8 +1,8 @@
 ,cardtitle,class,cardtext1,cardtext2,cardimg,cardstripecol,cardtitlebgcol,cardbgcol,,
 ,,action,IoT Boom,Every startup using IoT gets a boost of half of their investors,,#B24925,,,usecase,50
 ,,action,Hooray for Hardware,If you own a hardware startup you can sell it for twice its investor value to a big search enginge company…,,#B24925,,,target audience,50
-,,action,SSL Bug,Every startup using IoT loses half of their investors,,#B24925,,,technology,50
-,,action,Cargo,Some company developed a container system for software building.  ,,#B24925,,,action,30
+,,action,SSL Bug,Every startup using internet technologies loses two of their investors,,#B24925,,,technology,50
+,,action,Cargo,Some company developed a container system for software building. Software startups get one extra investor,,#B24925,,,action,30
 ,,action,Internet of Shit,"Somebody found out, IoT is just another marketing buzzword. Every IoT startup looses half their investors",,#B24925,,,,
 ,,action,,,,#B24925,,,,
 ,,action,,,,#B24925,,,,
@@ -89,9 +89,9 @@
 ,,target audience,Recruiters,,,#248C27,,,,
 ,,target audience,Furries,,,#248C27,,,,
 ,,target audience,Expats,,,#248C27,,,,
-,,target audience,,,,#248C27,,,,
-,,target audience,,,,#248C27,,,,
-,,target audience,,,,#248C27,,,,
+,,target audience,Code Monkeys,,,#248C27,,,,
+,,target audience,Hardware Developer,,,#248C27,,,,
+,,target audience,Hipster Coffe Roaster,,,#248C27,,,,
 ,,target audience,,,,#248C27,,,,
 ,,target audience,,,,#248C27,,,,
 ,,target audience,,,,#248C27,,,,
