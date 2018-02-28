@@ -97,4 +97,4 @@ template = Template(template_file.read())
 with open('game.tex','w') as outfile:
     outfile.write(template.substitute(d))
 
-subprocess.call(["xelatex", "-interaction=nonstopmode", "game.tex"])
+subprocess.call(["xelatex", "-interaction=nonstopmode", "-aux-directory=.aux", "game.tex"])
