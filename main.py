@@ -2,6 +2,7 @@
 import csv
 import subprocess
 from string import Template
+import os
 
 def generate_card(card_no):
     col = cardstripecols[card_no].strip('#')
