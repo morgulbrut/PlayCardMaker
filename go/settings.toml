@@ -1,0 +1,20 @@
+[settings]
+name="Serial enterpreneur"
+width=210
+height=297
+scale=5
+rules="input/rules.md"
+bgcolour="pink"
+
+[cards]
+horizontal=4
+vertical=4
+cornerroundes=5
+spacing=1
+
+[[card]]
+name="Bla"
+text="foo bar /nbaz"
+strokecolour="#224455"
+bgcolour="#6688bb"
+boxcolour="#7799cc"

@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"net/http"
 
@@ -10,6 +11,7 @@ import (
 func main() {
 	http.Handle("/circle", http.HandlerFunc(circle))
 	http.Handle("/cards", http.HandlerFunc(cards))
+	log.Println("Server ready on localhost:2003")
 	err := http.ListenAndServe(":2003", nil)
 	if err != nil {
 		log.Fatal("ListenAndServe:", err)
@@ -33,7 +35,7 @@ func cards(w http.ResponseWriter, req *http.Request) {
 	s.Rect(0, 0, width, height, "fill:pink")
 	for x := 0; x < cardsH; x++ {
 		for y := 0; y < cardsV; y++ {
-			s.Roundrect(5+x*cardW, 5+y*cardH, cardW, cardH, 5*scale, 5*scale, "fill:white;stroke:black;stroke-width:5")
+			s.Roundrect(5+x*cardW, 5+y*cardH, cardW, cardH, 5*scale, 5*scale, fmt.Sprintf("fill:%s;stroke:#224455;stroke-width:5", "#6688bb"))
 		}
 
 	}
